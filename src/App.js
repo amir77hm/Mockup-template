@@ -13,7 +13,7 @@ import Footer from './Footer'
 
 function App() {
   return (
-    <Route path='/home' render={routeProps =>
+    <Route path='/' render={routeProps =>
       <Home>
         <NavBar />
         <SectionOne />
